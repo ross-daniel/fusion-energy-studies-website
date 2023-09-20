@@ -1,0 +1,85 @@
+<html>
+<head>
+	<title>Fusion Energy Studies</title>
+	<meta name="viewport" content="width=device-width">
+
+	<link rel="stylesheet" href="stylesheet.css"></a>
+	<link rel="stylesheet" href="iphone.css" media="screen and (max-device-width: 500px)">
+	<style>
+	@import url('http://fonts.cdnfonts.com/css/cloister-black');
+	@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
+	</style>
+</head>
+
+<body>
+
+  <div id="videoContent" class="mobile_hidden">
+  		<video id="videoElement" onmouseover="this.play()" onmouseout="this.currentTime=0" width="100%" height="100%" autoplay muted>
+	      <source src="videos/lightningvideo.mp4" type="video/mp4">
+	  	</video>
+		  <p class="video"><a href="#main-header" class="video">See All</a></p>
+  </div>
+
+	<div id="main-header">
+		<ul class="main-header">
+				<li><a href="#projects" onclick="show_projects()" class="main-header">overview</a></li>
+				<li><a href="" class="main-header">vacuum system</a></li>
+				<li><a href="" class="main-header">mechanical designs</a></li>
+		</table>
+	</div>
+	<div id="sticky-box">
+		<ul class="socials">
+			<li><a href="https://github.com/ross-daniel"><img src="icons/icons8-github-24.png"></a></li>
+			<li><a href="https://building.colostate.edu/project/advanced-beam-laboratory/"><img src="icons/csu-rams-logo-black-and-white.png"></a></li>
+		</ul>
+	</div>
+	<div id="featured">
+	<center><h2 class="title">Overview</h2></center>
+		<table class="featured">
+			<div id="rows">
+
+			<tr class="featured">
+				<td><img src="Images/National-Ignition-Facilty-target-chamber.png" width=60% height=60%></td>
+				<td class="title">
+					The Fusion Energy Project<br><br>
+					<span class="description">
+						The fusion energy project is founded upon the achievment of 'ignition' at
+						Lawrence Livermore National Labs (LLNL).  This achievment marked a huge milestone in the quest
+						towards clean and renewable energy and used a very differnt technique than in the past.
+						Previous attempts at achieving ignition used variations of a toroidal structure made of superconducting magnets
+						which aimed to accelerate particles to high speeds and force collisions that would
+						</span>
+						<br><a href="" class="see-more">See More...</a>
+
+
+				</td>
+			</tr>
+			<tr class="featured">
+				<td class="title">
+					Vacuum System<br><br>
+					<span id="vacuum" class="description">
+
+					</span>
+					<br><a href="" class="see-more">See More...</a>
+				</td>
+				<td><img src="Images/National-Ignition-Facilty-target-chamber.png" width=60% height=60%></td>
+			</tr>
+			<tr class="featured">
+				<td><img src="Images/National-Ignition-Facilty-target-chamber.png" width=60% height=60%></td>
+				<td class="title">Mechanical Designs <br><br>
+					<span id="mech-designs" class="description">
+
+					</span>
+					<br><a href="" class="see-more">See More...</a>
+				</td>
+			</tr>
+
+		</div>
+		</table>
+	</div>
+	<div id="projects" class="hidden">
+		<p>this is hidden</p>
+	</div>
+<script src="script.js"></script>
+</body>
+</html>

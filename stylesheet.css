@@ -1,0 +1,157 @@
+/*
+  Main Stylesheet, Stylesheet will be overridden in certain cases
+  Created By: Ross Stauder
+*/
+body{
+  background-color: black;
+  width: 100vw;
+}
+/*   video    */
+#video{
+  width: 100%;
+  position: relative;
+  align-items: center;
+}
+.video{
+  position: absolute;
+  white-space: nowrap;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: White;
+  font-family: 'Cloister Black', sans-serif;
+}
+
+/*    main header  */
+#main-header{
+  display: block;
+}
+
+ul.main-header{
+  padding-left: 1%;
+  padding-right: 1%;
+  width: 100vw;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-content: space-around;
+  padding-inline-start: 0px;
+  border: solid white;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+li{
+  display: inline;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-weight: bold;
+  color: white;
+}
+li a{
+  display: inline-block;
+}
+
+/*  featured projects  */
+#featured{
+  display: block;
+  width: 100vw;
+  align-items: center;
+}
+h2.title{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,0);
+  padding: 3%;
+  color: white;
+}
+table.featured{
+  text-align: center;
+  color: white;
+  padding-top: 12%;
+}
+#rows{
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,0);
+  padding: 5%;
+}
+tr.featured > td{
+  width: 50%;
+  height: 50%;
+  padding-bottom: 2.5em;
+  padding-top: 2.5em;
+}
+
+/*  social (sticky_box)  */
+ul.socials{
+  width: 20%;
+}
+
+.sticky{
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+/*  projects  */
+#projects p{
+  color: white;
+}
+
+/*  general classes  */
+.title{
+  font-family: 'Montserrat';
+  font-size: 48;
+}
+.description{
+  font-family: 'Montserrat';
+  font-size: 14;
+}
+p.video{
+  font-size: 24;
+}
+
+/*   links  */
+a{
+  text-decoration: none;
+  font-style: Verdana;
+}
+a:link{
+  text-decoration: none;
+}
+a:visited{
+  text-decoration: none;
+}
+a.main-header{
+  color: white;
+  font-size: 20;
+  font-family: 'Times New Roman', Times, serif;
+}
+a.video{
+  color: white;
+  font-size: 48;
+}
+a.video:hover{
+  text-decoration: line-through;
+}
+li a:hover{
+  display: inline-block;
+  transform: scale(1.2, 1.2);
+}
+a.see-more {
+  font-family: Verdana;
+  font-size: 16;
+  color: Red;
+}
+a.see-more:hover{
+  display: inline-block;
+  transform: scale(1.2, 1.2);
+}
+
+/* none  */
+.hidden{
+  display: none;
+}
